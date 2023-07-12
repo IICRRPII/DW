@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body class="InicioSecion1">
+   
+    <nav> 
+        
+        <ul id="barraul">
+            <li class="vinculoli"><a href="./index.php">Inicio</a></li>
+            <li class="vinculoli"><a href="./catalogo.php">Catalogo</a></li>
+            <li class="vinculoli"><a href="./sucursales.html">Sucursales</a></li>
+            <li class="vinculoli"><a href="./Carrito.php">Carrito</a></li>
+            <li class="vinculoli"><a href="./buscar.php">Buscar</a></li>
+            <li class="vinculoli"><a href="./InicioSesion.html">Iniciar Sesion</a></li>
+        </ul>
+    </nav>
+    
+    <p id="TituloRegistro">Registrar</p>
+
+    <div class="LoginDiv">
+        <form action="ind.php" method="post" >
+                <div class="formInput">
+                    <label for="username">Nombre de usuario:</label>
+                    <input type="text" id="contrasena" name="usuario" required><br><br>
+                </div><div class="formInput">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" required><br><br>
+                    <button  class="BotonIS" type="submit" value="Registrarse">
+                </div>
+            </form>
+
+    </div>
+   
+</body>
+</html>

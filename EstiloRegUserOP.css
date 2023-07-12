@@ -1,0 +1,64 @@
+body {
+    background-color: blue;
+  }
+  
+nav{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    max-height: 2rem;
+}
+
+.vinculoli {
+   
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+a:hover, nav > li:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 14, 14);
+}
+
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 1em;
+}
+  
+  form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 20rem;
+    margin: 0 auto; /* Esto centra el formulario horizontalmente */
+    margin-top: 5rem; /* Esto centra el formulario verticalmente */
+  }
+  
+  label {
+    color: black;
+    display: block;
+    margin-bottom: 1rem;
+    border: 1rem;
+    
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+

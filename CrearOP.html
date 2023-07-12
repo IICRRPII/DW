@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear artículo</title>
+    <link rel="stylesheet" href="Estilo.css">
+    <link rel="stylesheet" href="EstiloEditor.css">
+</head>
+<body id="EditorBody">
+    <nav> 
+        
+        <ul id="barraul">
+            <li class="vinculoli"><a href="./indexOP.html">Inicio</a></li>
+            <li class="vinculoli"><a href="./catalogoOP.php">Catalogo</a></li>
+            <li class="vinculoli"><a href="./CrearOP.html">Añadir producto</a></li>
+            <li class="vinculoli"><a href="./UsuariosOP.php">Usuarios</a></li>
+            <li class="vinculoli"><a href="./RegistrarUsuariosOP.html">Añadir Usuario</a></li>
+            <li class="vinculoli"><a href="./buscarOP.php">Buscar Usuario</a></li>
+            <li class="vinculoli"><a href="./index.php">Cerrar sesión</a></li>
+        </ul>
+    </nav>
+
+    <div id="TituloEditor">
+        <h1>Agregar articulo</h1>
+    </div>
+
+    <form action="CRUD-control.php" method="post" enctype="multipart/form-data">
+		<label for="nombre">Nombre del producto:</label><br>
+		<input type="text" id="nombre" name="nombre" value=""><br>
+
+		<label for="precio">Precio:</label><br>
+		<input type="number" id="precio" name="precio" value=""><br>
+
+		<label for="stock">Stock:</label><br>
+		<input type="number" id="stock" name="stock" value=""><br>
+
+		<label for="descripcion">Descripción:</label><br>
+		<input type="text" id="descripcion" name="descripcion" value=""></input><br>
+
+		<label for="imagen">Imagen:</label><br>
+		<input type="text" id="img" name="img" value=""><br><br>
+
+        <div id="BEOsend">
+            <input type="submit" name="Crear" value="Crear">
+        </div>
+	</form>
+    
+</body>
+</html>

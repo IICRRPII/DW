@@ -1,0 +1,76 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Óptica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Estilo.css">
+    
+</head>
+
+
+<body class="Index">
+   
+    <nav> 
+        <ul id="barraul">
+        <li class="vinculoli"><a href="./index.php">Inicio</a></li>
+            <li class="vinculoli"><a href="./catalogo.php">Catalogo</a></li>
+            <li class="vinculoli"><a href="./sucursales.html">Sucursales</a></li>
+            <li class="vinculoli"><a href="./Carrito.php">Carrito</a></li>
+            <li class="vinculoli"><a href="./buscar.php">Buscar</a></li>
+            <li class="vinculoli"><a href="./InicioSesion.html">Iniciar Sesion</a></li>
+        </ul>
+    </nav>
+    
+    
+    <div id="TituloIndex">
+        <h1 id="Titulo1">R&B OPTICAL</h1>
+    </div>
+   
+    
+    <div class="container">
+    
+        <section id="S1">
+            <h3 class="TSect">Sobre nosotros</h3>
+            <p style="line-height: 2rem;">En Demon Optic nos dedicamos a brindarte la mejor calidad de productos opticos al mejor costo y hasta la puerta de tu casa </p>
+        </section>
+    
+        <div class="seccion">
+            <h3 class="TSect">Nuestros productos</h3>
+            
+            <section id="S2">
+                
+                <ul class="productos">
+                    <li>Lentes solares</li>
+                    <li>Estuches</li>
+                    <li>Solciones</li>
+                    <li>Desarmadores</li>
+                    <li>Lentes de contacto</li>
+                    <li>Refacciones</li>
+                    <li>Microfibras</li>
+                </ol>
+                
+            </section>
+        </div>
+        
+        <div id="MisionVision" style="line-height: 2rem;">
+            <section id="S4">
+                <h3 class="TSect">Mision</h3>
+                <p style="padding-left: 20px;">Brindar los mejores productos oftálmicos de calidad y excelencia a nuestros clientes, poniendo a su disposición la mejor atención y entrega de productos oftálmicos. 
+                </p>
+            </section>
+        
+            <section id="S5">
+                <h3 class="TSect">Vision</h3>
+                <p style="padding-right: 20px;">Ser el sitio web con el mejor catalogo de calidad y precios de productos oftálmicos poniendo a la disposición de la sociedad mexicana productos que satisfascan sus necesidades, brindando un sitio accesible en donde todas las personas puedan quedar satisfechas con sus compras.</p>
+            </section>
+        </div>
+    </div>
+
+    </body>
+</html>

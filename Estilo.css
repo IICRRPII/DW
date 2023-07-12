@@ -1,0 +1,238 @@
+.Index {
+    margin: 0px;  
+    background-color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+#barraul{
+    /* background-color: rgb(0, 255, 221); */
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    max-height: 2rem;
+}
+
+.vinculoli {
+   
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover, nav > li:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 14, 14);
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 1em;
+    
+}
+#TituloIndex {
+    background-image: url(./Src/Image1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    height: 22rem;
+    max-width: 100%;
+    max-height: 100%;
+
+    
+}
+
+
+#S1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 20rem;
+    color: #fff;
+    border-bottom: .1rem dashed rgba(255, 255, 255, 0.421);
+    
+}
+#S2{
+    display: flex;
+    justify-content: space-around; 
+    height: 20rem;
+    border-bottom: .1rem dashed rgba(255, 255, 255, 0.421);
+    
+    
+}
+#S3{
+    /* column-count: 2;
+    column-gap: 50; */
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+#S4{
+    text-align: center;
+    width: 50%;
+}
+#S5{
+    text-align: center;
+    width: 50%;
+}
+.subt{
+    text-align: center;
+}
+#Titulo1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .3rem;
+ 
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.971);
+    padding-top: 1rem;
+    height: 2rem;
+    position: sticky;
+    top: 0;
+}
+
+.sucursal {
+    display: auto;
+    
+    
+}
+
+.TSect{
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+.Ubicaciones {
+    font: size 20px;
+}
+
+#MisionVision{
+    display: flex;
+    justify-content: space-around;
+    height: 20rem;
+}
+
+#MisionVision > section {
+    max-width: 600px;
+}
+.Ptitle {
+    justify-content: space-around;
+    display: flex;
+    padding: 1.5em;
+}
+.LoginDiv{
+    background-color: #00000041;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    backdrop-filter: blur(.2rem);
+    -webkit-backdrop-filter: blur(.2rem);
+    padding: 2em;
+    font-size: 1.3rem;
+    max-width: fit-content;
+    border-radius: 5%;
+    height: 20rem;
+    align-items: center;
+}
+.INusuario{
+    
+    border: solid;
+    margin: 2em;
+    text-align: center;
+    font-size: .8em;
+    border-style: dashed; 
+    background-color: #00000000;
+    width:30%;
+    padding: 2em;
+    
+}
+.BotonIS{
+    color: rgba(255, 97, 97, 0.971);
+    background: #ffffff00;
+    font-family: inherit;
+    font-weight: 3rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    border: 2px solid rgba(255, 97, 100, 0.971);
+    border-radius: .5rem;
+    transition: .5s;
+    width: 100%;
+}
+
+
+#BotonIS:hover{
+    color: #fff;
+}
+
+.InicioSecion{
+    margin: 0px;  
+    background-image: url(.Src/image2.jpg);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#contrasena, #usuario,#username,#password,#confirm_password,#telefono,#email {
+    background:none;
+    font-size: 1rem;
+    height: 1.5rem;
+    border:dashed .1rem #fff;
+    caret-color: white;
+    padding-left: 0.5rem;
+    color: white;
+    padding: 3px 0.75rem;
+    border-radius: 10px;
+}
+.InicioSecion1{
+    margin: 0px;  
+    background-image: url(./Src/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.FormInput{
+    display: flex;
+    flex-direction: column;
+}
+
+.FormInput > input {
+    margin-top: 0.8rem;
+}
+#Registrar{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+#Registrar:hover{
+    color: rgb(195, 0, 117);
+    transition: .8s ;
+
+}
+#TituloRegistro{
+    font-size: 3rem;
+}
+#CatalogoBody{
+    margin: 0%;
+}

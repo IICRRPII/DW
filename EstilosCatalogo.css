@@ -1,0 +1,48 @@
+.bodycatalogo{
+  background-image: url(Src/fv2kvj_6508f781bc15ca32df15ff214cdeb8cee50de362.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.catalog {
+  background-color: #00000033;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3rem;
+}
+  
+.item {
+  width: calc(25% - 20px);
+  margin-bottom: 40px;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border: solid;
+  
+}
+
+.item h2 {
+  margin: 0 0 1rem;
+  color: #fff;
+}
+
+.item p {
+  margin: 0 0 .8rem;
+  color: #fff;
+}
+
+.item .price {
+  color: rgb(111, 228, 118);
+  font-size: 1.2rem;
+  padding: 3rem;
+  font-weight: bold;
+}
+
+.item button, .btnCatalogo {
+  background-color: #ff0000;
+  border: none;
+  color: #fff;
+  padding: .6rem 1.2rem;
+}
